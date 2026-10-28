@@ -1,0 +1,13 @@
+# Python
+*.pyc
+__pycache__/
+.env
+
+# Data files
+data/*.csv
+data/*.parquet
+data/*.h5
+
+# Pickle / results
+*.pkl
+results/*.pkl

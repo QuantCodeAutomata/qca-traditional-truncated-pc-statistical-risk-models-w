@@ -1,0 +1,46 @@
+2026-10-28 13:44:15,989 Exp2: Loading price data for 90 tickers
+2026-10-28 13:44:15,989 Loading price data from cache: data/full_cache.pkl
+2026-10-28 13:44:15,998 Exp2: 1535 trading days
+2026-10-28 13:44:16,074 Exp2: Running bounded variant M1
+2026-10-28 13:44:16,075 Block 1/69: 2009-01-02 (80 tickers, 21 days)
+2026-10-28 13:44:22,280 Block 11/69: 2009-11-02 (80 tickers, 21 days)
+2026-10-28 13:44:28,806 Block 21/69: 2010-09-02 (81 tickers, 21 days)
+2026-10-28 13:44:34,432 Block 31/69: 2011-07-05 (82 tickers, 21 days)
+2026-10-28 13:44:39,788 Block 41/69: 2012-05-03 (82 tickers, 21 days)
+2026-10-28 13:44:45,658 Block 51/69: 2013-03-07 (82 tickers, 21 days)
+2026-10-28 13:44:51,484 Block 61/69: 2014-01-06 (82 tickers, 21 days)
+2026-10-28 13:44:56,067   M1: ROC=29.23%, SR=6.62, CPS=2.1583c, avgK=6.5, avgZeta=0.9039
+2026-10-28 13:44:56,071 Exp2: Running bounded variant M2
+2026-10-28 13:44:56,072 Block 1/69: 2009-01-02 (80 tickers, 21 days)
+2026-10-28 13:45:01,069 Block 11/69: 2009-11-02 (80 tickers, 21 days)
+2026-10-28 13:45:06,969 Block 21/69: 2010-09-02 (81 tickers, 21 days)
+2026-10-28 13:45:15,190 Block 31/69: 2011-07-05 (82 tickers, 21 days)
+2026-10-28 13:45:30,971 Block 41/69: 2012-05-03 (82 tickers, 21 days)
+2026-10-28 13:45:51,604 Block 51/69: 2013-03-07 (82 tickers, 21 days)
+2026-10-28 13:46:18,468 Block 61/69: 2014-01-06 (82 tickers, 21 days)
+2026-10-28 13:46:35,487   M2: ROC=29.23%, SR=6.62, CPS=2.1583c, avgK=6.5, avgZeta=0.9039
+2026-10-28 13:46:35,492 Exp2: Running bounded variant M3
+2026-10-28 13:46:35,493 Block 1/69: 2009-01-02 (80 tickers, 21 days)
+2026-10-28 13:46:52,681 Block 11/69: 2009-11-02 (80 tickers, 21 days)
+2026-10-28 13:47:08,072 Block 21/69: 2010-09-02 (81 tickers, 21 days)
+2026-10-28 13:47:23,799 Block 31/69: 2011-07-05 (82 tickers, 21 days)
+2026-10-28 13:47:37,908 Block 41/69: 2012-05-03 (82 tickers, 21 days)
+2026-10-28 13:47:53,084 Block 51/69: 2013-03-07 (82 tickers, 21 days)
+2026-10-28 13:48:13,095 Block 61/69: 2014-01-06 (82 tickers, 21 days)
+2026-10-28 13:48:33,898   M3: ROC=28.98%, SR=6.69, CPS=2.1331c, avgK=8.6, avgZeta=0.9016
+2026-10-28 13:48:33,910 Exp2: Running bounded variant M4
+2026-10-28 13:48:33,911 Block 1/69: 2009-01-02 (80 tickers, 21 days)
+2026-10-28 13:48:59,279 Block 11/69: 2009-11-02 (80 tickers, 21 days)
+2026-10-28 13:49:16,804 Block 21/69: 2010-09-02 (81 tickers, 21 days)
+2026-10-28 13:49:42,097 Block 31/69: 2011-07-05 (82 tickers, 21 days)
+2026-10-28 13:49:56,585 Block 41/69: 2012-05-03 (82 tickers, 21 days)
+2026-10-28 13:50:11,563 Block 51/69: 2013-03-07 (82 tickers, 21 days)
+2026-10-28 13:50:30,468 Block 61/69: 2014-01-06 (82 tickers, 21 days)
+2026-10-28 13:50:50,419   M4: ROC=29.12%, SR=6.67, CPS=2.1483c, avgK=8.1, avgZeta=0.9032
+2026-10-28 13:50:50,461 Exp2: Saved to /workspace/project/results/exp2_table2.csv
+EXP2 DONE
+  variant  roc_pct  sharpe  cps_cents
+0      M1    29.23    6.62     2.1583
+1      M2    29.23    6.62     2.1583
+2      M3    28.98    6.69     2.1331
+3      M4    29.12    6.67     2.1483

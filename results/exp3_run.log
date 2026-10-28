@@ -1,0 +1,38 @@
+2026-10-28 13:45:12,079 Exp3: N=2339, M=19, 10 runs, precision=0.001
+2026-10-28 13:45:12,087 Exp3: Generated Y with shape (19, 2339)
+2026-10-28 13:45:12,087 Exp3: Validating no-iterations algorithm
+2026-10-28 13:45:12,363 Exp3: Eigenvalue match: True
+2026-10-28 13:45:12,363 Exp3: Mean eigenvector residual: 0.000000
+2026-10-28 13:45:12,363 Exp3: Running full computational experiment
+2026-10-28 13:49:00,668 Exp3: Power iterations - mean=101291.1, median=101256.5
+2026-10-28 13:49:00,668 Exp3: M=19 for comparison (should be << total iterations)
+2026-10-28 13:49:00,668 Exp3: Paper expects ~5037 total iterations (vs M=19)
+EXP3 DONE
+  N: 2339
+  M: 19
+  n_runs: 10
+  precision: 0.001
+  power_iter_mean: 101291.1
+  power_iter_median: 101256.5
+  power_iter_std: 151.21405357968553
+  power_iter_min: 101092.0
+  power_iter_max: 101574.0
+  M_comparison: 19
+  ratio_iters_to_M: 5331.11052631579
+  eigenvalue_match: True
+  mean_eigvec_residual: 4.094995272131013e-16
+  ni_eigenvalues_top5: [821.4293850156461, 316.89617774887705, 241.70175688927762, 163.0532888061341, 138.37059552845426]
+  results_df:    run  total_iterations
+0    1            101093
+1    2            101317
+2    3            101574
+3    4            101363
+4    5            101518
+5    6            101092
+6    7            101225
+7    8            101259
+8    9            101216
+9   10            101254
+  validation: {'ni_eigenvalues': array([821.42938502, 316.89617775, 241.70175689, 163.05328881,
+       138.37059553]), 'gram_eigenvalues': array([821.42938502, 316.89617775, 241.70175689, 163.05328881,
+       138.37059553]), 'eigenvalue_match': True, 'eigenvector_residuals': [2.257967595753543e-16, 1.6259616320669317e-16, 6.892996556632584e-16, 6.832666963090212e-16, 2.8653836131117943e-16], 'mean_vec_residual': 4.094995272131013e-16}

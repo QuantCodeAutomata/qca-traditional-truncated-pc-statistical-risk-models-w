@@ -1,0 +1,2 @@
+N,M,n_runs,precision,power_iter_mean,power_iter_median,power_iter_std,power_iter_min,power_iter_max,M_comparison,ratio_iters_to_M,eigenvalue_match,mean_eigvec_residual,ni_eigenvalues_top5
+2339,19,10,0.001,101291.1,101256.5,151.21405357968553,101092.0,101574.0,19,5331.11052631579,True,4.094995272131013e-16,"[821.4293850156461, 316.89617774887705, 241.70175688927762, 163.0532888061341, 138.37059552845426]"
